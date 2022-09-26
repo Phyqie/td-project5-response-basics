@@ -1,0 +1,176 @@
+/*****************************************************
+|=================COMMON STYLES===================|
+******************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a{
+    text-decoration: none;
+   
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family:"Nunito", sans-serif;
+}
+
+/*****************************************************
+|====================NAV SECTION================|
+******************************************************/
+
+nav{
+    background-color: teal;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px 20px 50px;
+    justify-content: space-between;
+}
+
+nav h1{
+    margin-right: auto;
+}
+nav a{
+    color: white;
+    list-style-type: none;
+}
+
+nav>ul{
+    display: flex;
+    flex-wrap:wrap;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-between;
+    gap: 45px;
+    color: white;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+/*****************************************************
+|====================ABOUT SECTION================|
+******************************************************/
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 40%;
+    text-align: center;
+    justify-content: center;
+    margin: 100px 50px;
+}
+h2{
+    color: teal;
+    align-items:left;
+    justify-content: end;
+    text-align: end;  
+    margin-right:auto;
+    margin-bottom: 10px;
+    margin-top: 80px;
+}
+p{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: right;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+/*****************************************************
+|====================PAST PROJECT SECTION================|
+******************************************************/
+.past-projects{
+    color: teal;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 0;
+
+}
+.past-project>h2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.p{
+    margin-right: 120px;
+    margin-left: 100px;
+}
+
+
+
+/*****************************************************
+|====================CONTACT SECTION================|
+******************************************************/
+.contact{
+    background-color: #00C19F;
+    margin:80px 0
+    
+    }
+    .contact-text{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 64px 0;
+    }
+    
+    .contact-text h2{
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 32px;
+    }
+    
+    .contact-text p{
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    }
+    
+    
+    .button {
+    display: inline-block;
+    background-color:#e310cb;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    }
+    
+/*****************************************************
+|====================SERVICE SECTION================|
+******************************************************/ 
+.services{
+    background-color: rgb(34, 124, 124);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.services ul{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10%;
+    background-color: white;
+    color: teal;
+}
+    
+
+/*****************************************************
+|====================CONTACT SECTION================|
+******************************************************/ 
+.contact{
+    background-color: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+}
