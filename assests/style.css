@@ -31,8 +31,7 @@ nav{
     background-color: teal;
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
-    padding: 10px 10px 20px 50px;
+    padding: 20px 50px;
     justify-content: space-between;
 }
 
@@ -41,20 +40,20 @@ nav h1{
 }
 nav a{
     color: white;
-    list-style-type: none;
 }
 
-nav>ul{
+nav ul{
     display: flex;
-    flex-wrap:wrap;
-    list-style-type: none;
-    text-decoration: none;
-    justify-content: space-between;
     gap: 45px;
     color: white;
     align-items: center;
-    list-style-type: none;
 }
+
+#box, .hamburger{
+    display: none;
+
+}
+
 
 
 /*****************************************************
@@ -62,49 +61,48 @@ nav>ul{
 ******************************************************/
 .about{
     display: flex;
-    flex-wrap: wrap;
-    max-width: 40%;
-    text-align: center;
-    justify-content: center;
-    margin: 100px 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 120px;
+    justify-content: space-between;  
 }
-h2{
+
+.about-text{
+    width: 45%;
+    color: #324A58;
+}
+
+.about-text h2{
     color: teal;
-    align-items:left;
-    justify-content: end;
-    text-align: end;  
-    margin-right:auto;
-    margin-bottom: 10px;
-    margin-top: 80px;
+    margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: 600;
+
 }
-p{
-    display:flex;
-    flex-wrap: wrap;
-    text-align: right;
-    justify-content: end;
-    margin-right: 20px;
+
+.about-text p{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+
+}
+
+.about-text p:nth-child(3){
+    margin-top: 1.5rem;
 }
 
 /*****************************************************
 |====================PAST PROJECT SECTION================|
 ******************************************************/
-.past-projects{
-    color: teal;
-    margin-right: 100px;
-    margin-left: 100px;
-    padding: 0;
-
-}
-.past-project>h2{
+.project-heading{
     display: flex;
-    flex-wrap: wrap;
-
-}
-.p{
-    margin-right: 120px;
-    margin-left: 100px;
+    justify-content: space-between;
 }
 
+.past-projects{
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 
 /*****************************************************
